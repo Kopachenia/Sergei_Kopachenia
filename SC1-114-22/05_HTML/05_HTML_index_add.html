@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+<body>
+    <h1 align="center"> Заполните анкету</h1>
+    <table align="center" border="0" width="100%">
+        <tr>
+            <td>
+                <FIELDSET>
+                    <legend>Личные данные</legend>
+                        <form action = "http://fe.it-academy.by/TestForm.php" method="GET">
+                            <p><input type="text" pattern="[А-Яа-яЁё]" maxlength="25" size="25"autofocus required placeholder="Фамилия"></p>
+                            <p><input type="text" pattern="[А-Яа-яЁё]" maxlength="25" size="25"autofocus required placeholder="Имя"></p>
+                            <p><input type="text" pattern="[А-Яа-яЁё]" maxlength="25" size="25"autofocus required placeholder="Отчество"></p>     
+                        </form>    
+                <FIELDSET>           
+                    <legend>Паспортные данные</legend>
+                    <form action = "http://fe.it-academy.by/TestForm.php" method="GET">
+                        <input type="text" pattern="[A-Za-z]{2}" maxlength="2" size="2" required>
+                        <input type="text" pattern="[0-9]{7}" maxlength="7" size="7" required>        
+                    </form>
+                </FIELDSET> 
+                <FIELDSET>           
+                    <legend>Дата рождения</legend>
+                    <form action = "http://fe.it-academy.by/TestForm.php" method="GET">
+                        <input type="text" pattern="[0-9]{4}" maxlength="4" size="4"><br>
+                        <select атрибуты>
+                            <option value>Январь</option>
+                            <option value>Февраль</option>
+                            <option value>Март</option> 
+                            <option value>Апрель</option> 
+                            <option value>Май</option> 
+                            <option value>Июнь</option>
+                            <option value>Июль</option>
+                            <option value>Август</option>  
+                            <option value>Сентябрь</option>  
+                            <option value>Октябрь</option>  
+                            <option value>Ноябрь</option>  
+                            <option value>Декабрь</option>      
+                        </select>      
+                    </form>                    
+                    <form action = "http://fe.it-academy.by/TestForm.php" method="GET">
+                        <input type="number" name="Upload" value="1" min="1" max="31" step="1">     
+                    </form>
+                </FIELDSET>
+                <select атрибуты>
+                    <option value>белорус</option>
+                    <option value>русский</option>
+                    <option value>украинец</option> 
+                    <option value>поляк</option>     
+                </select>Нациаональность<br>
+                Адрес<br>
+                <textarea name="comment"> </textarea>
+            </FIELDSET>  
+            <FIELDSET>        
+                <legend>Хобби</legend>
+                <form action = "http://fe.it-academy.by/TestForm.php" method="GET">
+                    <input type="checkbox" name="1" value="1а">Дайвинг<br>
+                    <input type="checkbox" name="2" value="2а">Авто<br>
+                    <input type="checkbox" name="3" value="3а">Спорт<br>
+                    <input type="checkbox" name="3" value="3а">Музыка<br>         
+                </form>
+            </FIELDSET> 
+            <FIELDSET>        
+                <legend>Домашние животные</legend>
+                <form action = "http://fe.it-academy.by/TestForm.php" method="GET">
+                    <select name="pets" select multiple>
+                        <optgroup label="Попугаи">
+                         <option selected value="1">Волнистый</option>
+                         <option value="2">Ара</option>
+                         <option value="3">Неразлучник</option>
+                        </optgroup>
+                        <optgroup label="Рыба">
+                         <option value="4">Карась</option>
+                         <option value="5">Окунь</option>
+                         <option value="6">Осётр</option>
+                        </optgroup>
+                        <optgroup label="Птица">
+                            <option value="4">Ворон</option>
+                            <option value="5">Аист</option>
+                            <option value="6">Павлин</option>
+                           </optgroup>
+                       </select>             
+                </form>
+            </FIELDSET> 
+            <FIELDSET>        
+                <legend>Данные для входа и восстановления пароля</legend>
+                <form action = "http://fe.it-academy.by/TestForm.php" method="GET">
+                    <input minlength="5" size="20" name="Логин" pattern="^[a-zA-Z]+$"required placeholder="Логин"><br>
+                    <input type="password" autocomplete="off" minlength="10" size="20" name="Пароль"pattern="^[a-zA-Z]+$"required placeholder="Пароль">     
+                </form>
+            </FIELDSET> 
+            <FIELDSET>        
+                <legend>Координаты</legend>
+                <form action = "http://fe.it-academy.by/TestForm.php" method="GET">
+                    <input type="email" name="login"placeholder="введите адрес электронной почты"><br>
+                    <input type="url" name="pass"placeholder="введите адрес сайта"><br>
+                </form>
+            </FIELDSET> 
+            <FIELDSET>        
+                <legend>Цифры</legend>
+                <form action = "http://fe.it-academy.by/TestForm.php" method="GET">
+                    <input type="number" name="num" min="-2.5" max="2.5" step="0.1"><br>
+                    <input type="range" min="1" max="10" step="1"value="0"> 
+                </form>
+            </FIELDSET> 
+            <FIELDSET>        
+                <legend>Кнопки управления</legend>
+                <form action = "http://fe.it-academy.by/TestForm.php" method="GET">
+                    <button>Отправить</button>
+                    <button>Сбросить</button><br>
+                    <img src="post.jpg" alt="Logo" width="40" height="40" class="rightpic">
+                </form>
+            </FIELDSET> 
+            </td>
+        </tr>          
+    </table>  
+
+
+
+</form> 
+    
+</body>
+</html>

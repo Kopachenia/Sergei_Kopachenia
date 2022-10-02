@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .rightpic {
+         float: right; 
+         margin: 10;
+         padding: 10; 
+        }
+    </style>
+</head>
+<body>
+    <p><a name="top"></a></p> 
+    <img src="python_logo.jpg" alt="Logo" width="250" height="250" class="rightpic">
+    <h1 align="center">HOW-TO: Программа на Python, Часть 1</h1>
+    <p>
+        <a href=03_HTML_index_01.html target="_blank"><em>Программа на Python — часть 1</em></a><br>
+        <a href=03_HTML_index_02.html target="_blank"><em>Программа на Python — часть 2</em></a><br>
+        <a href=03_HTML_index_03.html target="_blank"><em>Программа на Python — часть 3</em></a><br>      
+    <h1 align="left"><H2 id="chapter3">Содержание</H2></h1>
+    <h2 align="left">HOW-TO: Программа на Python, Часть 1</h2>
+    <p><li><A HREF="#chapter1">Наша первая программа</A></li></p> 
+    <p><li><A HREF="#chapter2">Примерно цикла For</A></li></p> 
+    <p> Из множества существующих языков программирования Python — один из самых лёгких
+    в изучении. Он создан в конце 80-х годов XX века, но с тех пор он сильно изменился.
+    Хотя Python входит в состав большинства дистрибутивов Linux, на него часто не
+    обращают внимания при выборе языка для изучения. В этой статье мы рассмотрим
+    создание консольных приложений, а в следующей — программирование графических
+    интерфейсов <u>(GUI)</u>. Давайте создадим простую программу прямо сейчас.</p>
+    <h2 align="left"><A name="chapter1">Наша первая программа</A></h2>
+    <p><A HREF="#chapter3">К содержанию</A></p>
+    <p> Наберём код в текстовом редакторе (например, в <STRONG>gedit</STRONG>). Потом мы разберёмся, что делает
+    каждая строка и пойдём дальше.</p>  
+    <p> Введите эти 4 строки:</p>  
+    <p class="dline"><br><font face="Arial Narrow">#!/usr/bin/env python</font><br>
+        <font face="Arial Narrow">print 'Hello. I am a python program.'</font>><br>
+        <font face="Arial Narrow">name = raw_input("What is your name?")</font><br>
+        <font face="Arial Narrow">print "Hello there, " + name + "!"</font></p>  
+    <p> Это всё. Сохраните файл как <STRONG>hello.py</STRONG> в любом месте. Я предлагаю сохранить его в папке
+        <STRONG>python_examples</STRONG> в домашнем каталоге. Этот пример показывает, как просто написать
+        программу на Python. Для запуска программы нужно сделать её файл исполняемым. Для
+        этого введите в терминале</p>
+    <p><STRONG><INS><EM>chmod +x hello.py</EM></INS></STRONG></p>
+    <p> в папке, в которой вы сохранили программу. Теперь запустите её.</p>
+    <p><font face="Arial Narrow">greg@earth:~/python_examples$ ./hello.py</font><br>
+        <font face="Arial Narrow">What is your name? Ferd Burphel</font>><br>
+        <font face="Arial Narrow">Hello there, Ferd Burphel!</font><br>
+        <font face="Arial Narrow">greg@earth:~/python_examples$</font></p> 
+    <p> Вот и всё.</p>
+    <h1 align="left"><A name="chapter2">Пример цикла For</A></h1>
+    <p><A HREF="#chapter3">К содержанию</A></p>
+    <p> Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый
+        редактор и наберите следующую программу:</p>
+    <p><font face="Arial Narrow">#!/usr/bin/env python</font><br>
+    <font face="Arial Narrow">for cntr in range(0,10):</font>><br>
+    <font face="Arial Narrow"> &nbsp print cntr</font></p>
+    <p> <CITE> Не забудьте поставить символ табуляции перед строкой «print cntr».</CITE>  Это важно. В
+        Python для указания на блоки кода используются не круглые «(» и фигурные «{» скобки
+        как в других языках программирования, а отступы.</p> 
+        <table align="center" border="0" width="100%">
+            <tr>
+                <th><a href="contacs.html"><img src="left.jpg" alt="Logo" width="25" height="25" class="center"></a></th>
+                <th><a href="#top"><img src="home.jpg" alt="Logo" width="25" height="25" class="center"></a></th>
+                <th><a href="contacs.html"><img src="right.jpg" alt="Logo" width="25" height="25" class="center"></a></th>
+            </tr>
+        </table> 
+</body>
+</html>
