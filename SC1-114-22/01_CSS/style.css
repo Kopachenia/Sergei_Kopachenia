@@ -1,0 +1,7 @@
+@import "print.css";
+@import "screen.css"; 
+p {
+font-family:sans-serif;
+font-size: 14pt;
+background-color:#eee;
+}

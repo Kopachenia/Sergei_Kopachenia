@@ -1,0 +1,6 @@
+
+    @media print and (color) { 
+    body{font-family:Tahoma; 
+    font-size: 25px;
+    background-color: rgb(40, 69, 231);}
+   }
