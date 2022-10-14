@@ -1,0 +1,45 @@
+.a {
+    width: 145px;
+    height: 195px;
+    background-image: url("cards.png");
+    background-repeat: no-repeat;
+    background-position: 0px -1386px;
+    display: inline-block;
+}
+.b {
+    width: 145px;
+    height: 195px;
+    background-image: url("cards.png");
+    background-repeat: no-repeat;
+    background-position: 0px -193px;
+    margin-left: -80px;
+   
+    display: inline-block;
+    }
+.c {
+    width: 145px;
+    height: 195px;
+    background-image: url("cards.png");
+    background-repeat: no-repeat;
+    background-position: 0px -392px;
+    margin-left: -80px;
+    display: inline-block;
+}
+.d {
+    width: 145px;
+    height: 195px;
+    background-image: url("cards.png");
+    background-repeat: no-repeat;
+    background-position: 0px -592px;
+    margin-left: -80px;
+    display: inline-block;
+}
+.e {
+    width: 145px;
+    height: 195px;
+    background-image: url("cards.png");
+    background-repeat: no-repeat;
+    background-position: 0px -790px;
+    margin-left: -80px;
+    display: inline-block;
+}
